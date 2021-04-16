@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+/**************satrt main **********************/
+.team-club-title {
+  width: 40%;
+  margin: 0 auto;
+  margin: 30px auto;
+}
+.team-club-title ul li {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+.team-club-title ul li img {
+  width: 100%;
+}
+.team-club-title ul li span {
+  color: #000;
+  font-weight: 600;
+}
+.team-secttion {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+}
+.players-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.players-info .player-info {
+  width: 20%;
+  height: 200px;
+  background-color: #fff;
+  margin: 10px 2.5%;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 12px;
+}
+.players-info .player-info img {
+  width: 80%;
+  height: 80%;
+  margin-bottom: 10px;
+}
+.players-info .player-info p {
+  font-weight: 600;
+  font-size: 14px;
+}
